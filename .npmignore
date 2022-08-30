@@ -1,0 +1,61 @@
+# compiled output
+
+# dependencies
+/node_modules/*
+
+#dev source
+/coverage/*
+/public/*
+/src/*
+/img-docs/*
+.jshintrc
+.eslintignore
+.eslintrc.json
+.gitignore
+.huskyrc.json
+.lintstagedrc.json
+.npmignore
+jest.config.js
+server.js
+tsconfig.json
+yarn.lock
+.babelrc
+README.html
+*.log
+*.txt
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+*.iml
